@@ -1,0 +1,23 @@
+const age_1 = 19
+if (age_1 === 19) console.log('you just become adult');
+//if '18'==18 then it will give true it is strict
+//if '18'=== 18 then it will print false it is not strict
+
+const age_2 = '19'
+if (age_2 == 19) console.log('you just become adult(loose)');
+if (age_2 === 19) console.log("you just become adult(tight)");
+
+const fav = prompt("what is your fav number");
+console.log(fav);
+console.log(typeof fav);
+
+if (fav == 23) {//'23'==23
+    console.log("cool!23 is amzing number");
+}
+
+else if (fav === 7) {
+    console.log("cool it's 7");
+}
+else {
+    console.log("shit! there is no number");
+}
