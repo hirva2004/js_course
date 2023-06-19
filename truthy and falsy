@@ -1,0 +1,20 @@
+// 5 faslsy value:0,'',undefine,null,NaN
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('jonas'));
+console.log(Boolean({}));
+
+const money = 100
+if (money) {
+    console.log("don't spend money at all");
+} else {
+    console.log("you should get a job");
+}
+//if height value is not define then it will print height is define
+//also if value is o then it will print falsy value
+let height = 89;
+if (height) {
+    console.log("yah!height is define");
+} else {
+    console.log("Height is undefine");
+}
