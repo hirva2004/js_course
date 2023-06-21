@@ -1,0 +1,40 @@
+const day = 'thursday';
+switch (day) {
+    case 'monday'://day==monday
+        console.log("plan the structure");
+        console.log("go to coding compitation");
+        break;
+    case 'tuesday':
+        console.log("prepare theroy videos");
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log("Enjoy the wekend");
+        break;
+    default:
+        console.log("not a valod day");
+
+}
+if (day === 'monday') {
+    console.log("plan the structure");
+    console.log("go to coding compitation");
+}
+else if (day === 'tuesaday') {
+    console.log("prepare theroy videos");
+}
+else if (day === 'wednesday' || day === "thursday") {
+    console.log("Enjoy the wekend");
+} else {
+    console.log("shit!!!!");
+}
+
+//expression
+//In JavaScript, the backtick character (`) is used to create template literals, which are a special kind of string.
+// Template literals allow you to include variables and expressions directly inside the string
+//Template literals make it easier to combine variables and expressions within a string without 
+//the need for manual concatenation or string manipulation.
+
+const me = "hirva";
+console.log(`i'm ${2023 - 2004} years old ${me}`)
+
+
