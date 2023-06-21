@@ -1,0 +1,20 @@
+let age_b = 16;
+if (10 > 9 && 2 > 3) console.log("it perform and operation")
+else {
+    console.log("shit!!!")
+} if (4 > 1 || 0 > 1) console.log("it is or operation")
+const drivinglinces = true; //A
+const goodvision = true;//b
+console.log(drivinglinces && goodvision);
+console.log(drivinglinces || goodvision);
+console.log(!drivinglinces);
+if (drivinglinces && goodvision) {
+    console.log("sarah is abel to drive");
+}
+else {
+    console.log("somemone else to drive");
+
+}
+const isTired = true;
+console.log(drivinglinces || goodvision || isTired);
+
