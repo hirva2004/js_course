@@ -1,0 +1,14 @@
+//arrow function
+const calcAge3 = birthyear => 2037 - birthyear;
+console.log(calcAge3(1991));
+
+const yearsUntilRetirement = (birthyear, firstname) => {
+    const age = 2037 - birthyear;
+    const retirement = 65 - age;
+    //return retirement;
+    return `${firstname} retirement in ${retirement} years`
+
+}
+console.log(yearsUntilRetirement(2004, 'hirva'));
+console.log(yearsUntilRetirement(2003, 'abcd'));
+
