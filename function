@@ -1,0 +1,25 @@
+function logger() {
+    console.log("my name is hirva");
+}
+//calling running and invoking function
+logger();
+logger();
+logger();
+function fruuitProcessor(apples, oranges) {
+    // console.log(apples, oranges);
+    const juice = `juice with ${apples} apples and ${oranges} oranges.`;
+    return juice;
+}
+fruuitProcessor(8, 9);
+const applesjuice = fruuitProcessor(8, 9);
+console.log(applesjuice);
+//console.log(fruuitProcessor);
+fruuitProcessor(8, 9);
+const appleOrangejuice = fruuitProcessor(9, 99);
+console.log(appleOrangejuice);
+
+
+
+
+
+
