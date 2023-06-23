@@ -1,0 +1,14 @@
+
+function cutFruitPieces(fruit) {
+    return fruit * 4;
+}
+
+
+function fruuitProcessor(apples, oranges) {
+    const applepices = cutFruitPieces(apples);
+    const orangepices = cutFruitPieces(oranges);
+
+    const juice = `juice with ${applepices} apples and ${orangepices} oranges.`;
+    return juice;
+}
+console.log(fruuitProcessor(2, 3));
