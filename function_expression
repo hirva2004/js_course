@@ -1,0 +1,17 @@
+function calcAge(birthyear) {
+    const year = `the years is ${2037 - birthyear}`;
+    return year
+
+}
+const age1 = calcAge(2004)
+console.log(age1);
+
+console.log(calcAge(2004));
+//function expression
+const calcAge2 = function calcAge(birthyear) {
+    const year = `the years is ${2037 - birthyear}`;
+    return year
+}
+const age2 = calcAge2(2005);
+console.log(age1, age2);
+
